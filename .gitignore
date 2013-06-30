@@ -9,6 +9,7 @@
 
 # environment values
 /config/lockdown.yml
+/config/secret_token.rb
 
 # Ignore the default SQLite database.
 /db/*.sqlite3

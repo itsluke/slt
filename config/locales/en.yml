@@ -2,4 +2,96 @@
 # See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 en:
-  hello: "Hello world"
+
+  # functions
+  greet_username: "%{message}, %{user}!"
+
+  # alerts
+  welcome_back: "Welcome back"
+
+  # site related
+  site_name: "Sur Le Trottoir"
+  tagline: "helping you find crap in the street."
+
+  failure: "Erm that's not meant to happen"
+
+  remember_me: "Remember Me"
+  forgot_password: "Forgot your password?"
+
+  confirmation_needed: "Your account is still unconfirmed"
+
+  confirmation_title: "Confirmation"
+  confirmation:
+    one_last: "Just the finishing touches"
+    submit_btn: "Ok confirm me"
+
+  legal:
+    legal_tag: "by clicking %{btn} your accepting our "
+    t_c: "terms and conditions"
+    legal_intro: "Legal stuff"
+    legal: |
+      Ok so let's level with you. No yes w
+
+    auth:
+      added: "successfully added to your account"
+      removed: "successfully removed from your account"
+      error: "something went wrong with your authentication, please try again"
+
+    submit_btn: "I aggree"
+
+  create_post_title: "Create Post"
+  create_post:
+
+  no_user_posts: "it doesn't look like you've posted anything yet"
+  no_posts: "It doesn't look like %{user} has any posts yet"
+
+# Signup Process
+
+  form:
+    username: "Username"
+    email: "Email address"
+    name: "Full Name"
+    location: "Location"
+    distance: "Distance"
+    password: "Password"
+    password_confirmation: "Confirmation"
+    password_original: "Current Password"
+    social_access: "Allow your account post on :"
+    why:
+      location: "(Postcode's great, but city's alright too)"
+
+  sign_in_title: "Sign In"
+  sign_in:
+    username_email: "Username or Email"
+    password: "Password"
+    submit_btn: "Sign In"
+
+  sign_up_title: "Sign Up"
+  sign_up:
+    username: "Choose your username"
+    password_confirmation: "once more if you don't mind"
+    submit_btn: "Ok I'm ready"
+
+  edit_title: "Edit Your Account"
+  edit:
+    submit_btn: "Update Account"
+
+  twitter_return: "One last thing"
+  twit_form:
+    username: "Choose your username"
+    email: "Email address"
+    name: "Full Name"
+    location: "Location"
+
+  delete_intro: "Goodbye's are never easy but you can"
+  delete:
+    submit_btn: "cancel your account here"
+    confirmation: "Really? We'll be sad to see you go."
+
+  social_title: "Sign Up with"
+  facebook:
+    add: "Add Facebook Access"
+    login: "Facebook"
+  twitter:
+    add: "Add Twitter Access"
+    login: "Twitter"
